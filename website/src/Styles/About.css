@@ -1,0 +1,60 @@
+.About {
+    height: 100vh;
+}
+
+.AboutContainer {
+    height: 90vh;
+    background-color: #EFEFEF;
+    display: flex;
+    width: 100%;
+}
+
+.AboutContainer .leftSide{
+    background-color: #D2D6EF;
+    flex: 1;
+    width: 65%;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+
+.AboutContainer .rightSide {
+    background-color: darkgrey;
+    width: 30%;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.leftSide h1 {
+    font-size: 40px;
+    padding-left: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.leftSide p {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+.rightSide .MyPicture img#me{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+}
+
+
+
+.blue-text {
+    color: blueviolet;
+}

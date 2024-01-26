@@ -1,0 +1,80 @@
+.Home {
+    height: 100vh;
+}
+
+.headerContainer {
+    /* background-image: url('../Assets/MimiBackground.jpg');
+    background-size:cover;
+    background-position: center; */
+    background-image: #EFEFEF;
+    height: 100%;
+}
+
+.headerContainer h1 {
+    margin: 0;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 0.5px 0.5px 1px rgb(71, 71, 71);
+}
+
+.headerContainer p {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: 0.25px 0.25px 1px rgb(71, 71, 71);
+}
+
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.buttonContainer button {
+    margin-right: 10px;
+    cursor: pointer;
+    height: 8vh;
+    width: 120px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#button1 {
+    background-color: #624CAB;
+    color: #EFEFEF;
+    border: 1.5px solid #493786;
+}
+
+#button2 {
+    background-color: #D2D6EF;
+    border: 1.5px solid #bfc2d0;
+}
+
+#button3 {
+    background-color: darkgrey;
+    border: 1.5px solid rgb(134, 132, 132);
+}
+
+#button1:hover {
+    background-color: #574398;
+}
+
+#button2:hover {
+    background-color: #c4c8e9;
+}
+
+#button3:hover {
+    background-color: rgb(152, 152, 152);
+}
